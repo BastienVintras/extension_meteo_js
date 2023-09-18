@@ -8,8 +8,8 @@ body{
     justify-content: center;
     flex-direction: column;
 
-    border-radius: 10px;
-    background: white;
+    border-radius: 30px;
+    background: rgb(140, 166, 218);
 }
 
 p{
