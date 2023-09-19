@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="form_group">
+                <input type="text" class="form_control" id="inputCity">
+            </div>
+            <button type="submit" class="btn btn-info btn-block">
+                Rechercher ville
+            </button>
+        </form>
+
+        <p class="location">
+            <span id="text_location"></span>
+            <sup id="text_location_country"></sup>
+        </p>
+
+        <div class="temp">
+            <span id="text_temp"></span>
+            <sup>°C</sup>
+        </div>
+
+        <div class="temp_min">
+            température min :<span id="text_temp_min"></span>
+            <sup>°C</sup>
+        </div>
+
+        <div class="temp_max">
+            température max :<span id="text_temp_max"></span>
+            <sup>°C</sup>
+        </div>
+
+        <div class="temp_feelslike">
+            température ressentie : <span id="text_feelslike"></span>
+            <sup>°C</sup>
+        </div>
+
+        <img id="icon">
+        <p id="text_desc"></p>
+
+        <div class="sunrise">
+            lever du soleil à <span id="text_sunrise"></span>
+        </div>
+
+        <div class="sunset">
+            coucher du soleil à <span id="text_sunset"></span>
+        </div>
+        <a class="fleche" href="popup.html"><img src="pngegg.png" alt="popup"></a>
+
+    </div>
+</body>
+<script src="city.js"></script>
+
+</html>
